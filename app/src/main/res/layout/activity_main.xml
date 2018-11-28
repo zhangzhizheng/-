@@ -1,0 +1,46 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.good1.MainActivity">
+
+
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="143dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:baselineAligned="false"
+        android:text="开启世界"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="38dp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:baselineAligned="false"
+        android:hint="账号"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="382dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:baselineAligned="false"
+        android:hint="密码"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="129dp" />
+</LinearLayout>
